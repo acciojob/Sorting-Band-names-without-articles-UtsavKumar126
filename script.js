@@ -9,6 +9,8 @@ let f = (element)=>{
 		return element.substring(2,element.length);
 	else if(element.substring(0,2).toLowerCase()==='an')
 		return element.substring(3,element.length);
+	else
+		return element;
 }
 
 let arr2=arr1.map(f);
